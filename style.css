@@ -1,0 +1,85 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:black;
+}
+.outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 100vh;
+
+}
+.calci{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: black;
+    padding: 15px;
+    padding-top: 40px;
+    border-radius: 30px;
+    box-shadow: inset 5px 5px 12px grey,
+                5px 5px 12px rgba(0,0,0,.16)
+
+}
+.btn-box-1{
+    padding-left: 0px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.element{
+    margin-left: 12px;
+}
+input{
+    outline: none;
+    width: 100%;
+    margin-bottom: 15px;
+    height: 70px;
+    text-align: end;
+    box-shadow: inset -5px -5px 12px grey,
+                   inset 5px 5px 12px rgba(0,0,0,.16);
+    background-color: #ecf0f3;
+    border-radius: 30px;
+    border: none;
+    font-size: 50px;
+    color: rgb(70,70,70);
+    padding-right: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+   
+
+
+}
+.btn-box{
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+    
+
+}
+
+button{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    margin-right: 20px;
+    margin: auto;
+    box-shadow: inset -5px -5px 12px #fff,
+                   inset 5px 5px 12px rgba(0,0,0,.16);
+    background-color:yellowgreen;
+    outline:none;
+    color:black;
+    
+
+
+}
